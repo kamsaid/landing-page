@@ -1,0 +1,118 @@
+/* Base styles */
+body {
+    font-family: 'Roboto', sans-serif; /* Set the font to Roboto */
+    background-color: #1F2937; /* Dark background color */
+    color: #F9FAF8; /* Default text color */
+    margin: 0; /* Remove default margin */
+}
+
+/* Container styles */
+.container {
+    max-width: 1200px; /* Limit the width of the container */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Add padding */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+    gap: 20px; /* Space between items */
+}
+
+/* Header styles */
+header {
+    background-color: #1F2937; /* Dark background for header */
+    color: #F9FAF8; /* Header text color */
+    padding: 20px; /* Add padding */
+}
+
+/* Main heading */
+header h1 {
+    font-size: 48px; /* Main heading size */
+    font-weight: 900; /* Main heading weight */
+    color: #F9FAF8; /* Main heading color */
+    margin: 0; /* Remove default margin */
+}
+
+/* Secondary heading */
+header p {
+    font-size: 18px; /* Secondary text size */
+    color: #E5E7EB; /* Secondary text color */
+    margin: 10px 0; /* Add margin for spacing */
+}
+
+/* Navigation styles */
+header nav {
+    display: flex; /* Use flexbox for navigation */
+    justify-content: space-between; /* Space out links */
+    align-items: center; /* Center items vertically */
+}
+
+/* Navigation list styles */
+header nav ul {
+    display: flex; /* Use flexbox for list */
+    list-style: none; /* Remove bullet points */
+    gap: 20px; /* Space between links */
+}
+
+/* Navigation link styles */
+header nav ul li a {
+    color: #E5E7EB; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Main content styles */
+.main-content {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+    gap: 20px; /* Space between items */
+}
+
+/* Card container styles */
+.card-container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space out cards evenly */
+    gap: 20px; /* Space between cards */
+}
+
+/* Card styles for random information */
+.card {
+    border: 2px solid #E5E7EB; /* Border color */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding inside cards */
+    background-color: #F9FAF8; /* Card background color */
+    color: #1F2937; /* Text color */
+    text-align: center; /* Center text */
+    flex: 1; /* Allow cards to grow equally */
+}
+
+/* Button styles */
+.button {
+    background-color: #3882F6; /* Button background color */
+    color: #F9FAF8; /* Button text color */
+    padding: 10px 20px; /* Button padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-weight: bold; /* Bold text */
+}
+
+/* Quote section styles */
+.quote-section {
+    background-color: #E5E7EB; /* Quote section background color */
+    padding: 20px; /* Padding for quote section */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Quote text styles */
+.quote-text {
+    font-size: 36px; /* Quote text size */
+    font-style: italic; /* Italic style */
+    color: #1F2937; /* Quote text color */
+    margin: 0; /* Remove default margin */
+}
+
+/* Footer styles */
+footer {
+    text-align: center; /* Center footer text */
+    padding: 20px; /* Padding for footer */
+    background-color: #1F2937; /* Dark background for footer */
+    color: #F9FAF8; /* Footer text color */
+}

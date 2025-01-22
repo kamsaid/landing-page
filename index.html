@@ -4,37 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>This website is awesome</h1>
-    <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-    <button>Sign up</button>
-    
-    <h2>Some random information</h2>    
-    <div>
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
-        <p>This is some subtext under an illustration or image</p>
-    </div>
-    <div></div>
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
-        <p>This is some subtext under an illustration or image</p>
-    </div>
-    <div></div>
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
-        <p>This is some subtext under an illustration or image</p>
-    </div>
-    <div></div>
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
-        <p>This is some subtext under an illustration or image</p>
-    </div>
-    <div></div>
-        <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
+    <header>
+        <div class="container"> <!-- Added container for header content -->
+            <h1>This website is awesome</h1> <!-- Main heading -->
+            <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p> <!-- Subtext -->
+            <button class="button">Sign up</button> <!-- Sign up button -->
+        </div>
+    </header>
+
+    <main class="main-content"> <!-- Main content area -->
+        <h2>Some random information</h2>    
+        <div class="card-container"> <!-- Added container for cards -->
+            <div class="card"> <!-- Card for information -->
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+                <p>This is some subtext under an illustration or image</p>
+            </div>
+            <div class="card"> <!-- Card for information -->
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+                <p>This is some subtext under an illustration or image</p>
+            </div>
+            <div class="card"> <!-- Card for information -->
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+                <p>This is some subtext under an illustration or image</p>
+            </div>
+            <div class="card"> <!-- Card for information -->
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+                <p>This is some subtext under an illustration or image</p>
+            </div>
+        </div>
+    </main>
+
+    <section class="quote-section"> <!-- Quote section -->
+        <p class="quote-text">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
         <p>-Thor, God of Thunder</p>
-    </div>
-    <div></div>
+    </section>
+
+    <footer> <!-- Footer section -->
         <h2>Call to action! It's time!</h2>
         <p>Sign up for our product by clicking that button right over there!</p>
-        <button>Sign up</button>
-    </div>
+        <button class="button">Sign up</button> <!-- Sign up button -->
+        <p>Copyright © The Odin Project 2021</p> <!-- Copyright notice -->
+    </footer>
 </body>
 </html>
